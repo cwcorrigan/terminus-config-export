@@ -10,9 +10,9 @@ use Pantheon\Terminus\Site\SiteAwareInterface;
 use Pantheon\Terminus\Site\SiteAwareTrait;
 
 /**
- * Class UnfreezeCommand
+ * Class ConfigExportCommand.
  *
- * @package KevCooper\TerminusFreeze\Commands
+ * @package Pantheon\TerminusConfigExport\Commands
  */
 class ConfigExportCommand extends SSHBaseCommand implements SiteAwareInterface {
 
